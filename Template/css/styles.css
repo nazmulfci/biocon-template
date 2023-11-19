@@ -87,6 +87,24 @@ hr {
   background: #51932b;
   color: #fff;
 }
+
+/* about section */
+.about-us-img{
+  width: 102.4%;
+  margin-left: -15px;
+  height: 200px;
+  margin-top: -205px;
+  overflow: visible;
+}
+.about-title{
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 55px;
+  line-height: 73px;
+  font-weight: 500;
+  margin-top:30px;
+  margin-left: 25px;
+}
 .column-title {
   margin-top: 0;
   padding-bottom: 15px;
@@ -101,6 +119,85 @@ hr {
   left: 0;
   width: 40%;
   border-bottom: 1px solid #51932b;
+}
+.column-title-second {
+  margin-top: 25px;
+  margin-left: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+  position: relative;
+}
+.column-title-second:after {
+  content: " ";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 40%;
+  border-bottom: 1px solid #51932b;
+}
+.about-description{
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.8;
+}
+.about-description-second{
+  margin-left: 15px;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.8;
+}
+.about-img{
+  margin-top: 60px;
+}
+.news-title{
+  margin-top: -475px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: black;
+}
+.news-title-second{
+  margin-top: 35px;
+  margin-left: 20px;
+  font-size: 18px;
+  color: black;
+}
+.news-title:after{
+  content: " ";
+  position: absolute;
+  bottom: 450px;
+  left: 35px;
+  width: 65%;
+  border-bottom: 1px solid #51932b;
+}
+.news-title-second:after{
+  content: " ";
+  position: absolute;
+  bottom: 445px;
+  left: 35px;
+  width: 65%;
+  border-bottom: 1px solid #51932b;
+}
+.news-img{
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.news-details{
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.8;
+  margin-left: 20px;
+  color: #51932b;
+  font-weight: 600;
+}
+.news-details-title{
+  margin-left: 22px;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.descriprion{
+  margin-left: 22px;
 }
 ul.nostyle {
   list-style: none;
@@ -771,9 +868,16 @@ margin-bottom: 15px;
 border: 1px solid rgba(255, 255, 255, 0.2);
 margin: 0 8px;
 }
+/* About Section */
+
 #about {
-  padding: 100px 0;
+  margin-top: -20px;
+  height: 1300px;
   background: #e8e8e8;
+}
+.about {
+  background: #e8e8e8;
+  padding: 35px 0;
 }
 .carousel-content{
   padding: 0 20px 20px;

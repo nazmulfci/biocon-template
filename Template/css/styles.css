@@ -987,30 +987,150 @@ height:35px;
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #fff;
 }
+/* =========contact Start============ */
 #contact-us {
-  padding: 100px 0 50px;
-  background: #51942b;
-  color: #fff;
+  padding: 30px 0px;
+  background: #e2e2e2;
+  color:black;
 }
-#contact-us h1,
-#contact-us h2 {
-  color: #fff;
+#contact-us h2{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
-/*Contact*/
- .contact-info{
- padding:60px 0;
- }
-.contact-info address {
-margin-bottom: 20px;
-font-style: normal;
-line-height: 27px;
-font-size: 15px;
+.your-message{
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
-.contact-info .form-control { 
-padding: 6px 12px;
-border-radius: 0;
+.description_left{
+  margin-top:30px;
+  font-size: 16px;
+  text-align: justify;
 }
- 
+.form-label{
+  color:#000;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.form-control:focus {
+   border-color:none;
+  -webkit-box-shadow:none;
+  box-shadow: none;
+}
+.input_phone{
+  margin-top: 5px;
+}
+.subject_input{
+  margin-top: 5px;
+}
+.form-floating{
+  margin-top: 5px;
+}
+.button_wrapper {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0px 1rem;
+  box-shadow: 0 2px 2px #915b5b8e, 0 5px rgba(128, 66, 66, 0.548)#000;
+  transition: all .4s cubic-bezier(0, 0.22, 0.3, 1);
+}
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(214, 7, 7, 0.87) #000;
+}
+.button span {
+  color: #1a1212;
+  font-size: 13px;
+  margin-top: 18px;
+  font-weight: 600;
+  margin-left: 25%;
+  z-index: 9;
+  text-transform: uppercase;
+  transition: color 2.3s;
+}
+.btn3 {
+  width: 40%;
+  border-radius: 10px;
+  background-color: #1ab35f;
+}
+.button .back {
+  position: absolute;
+  height: 0;
+  width: 0;
+  filter: url(#cloudFilter);
+  border-radius: 50%;
+  z-index: 5;
+  background-color: #fff;
+  transition: all 2s cubic-bezier(0.1, 0.22, 0.3, 1);
+}
+.btn .back {
+  top: -50%;
+  left: -50%;
+}
+.btn3 .back {
+  bottom: -50%;
+  left: -50%;
+}
+.button:hover .back {
+  width: calc(2 * 180px);
+  height: calc(2 * 60px);
+}
+.button:hover span {
+  color: #000;
+}
+.right_contect h4{
+  font-weight: 600;
+  margin-left: 30px;
+  font-size:25px;
+  margin-top: 20px;
+}
+.right_contect ul{
+  list-style: none;
+}
+.right_contect ul li{
+  font-size: 16px;
+  line-height: 30px;
+}
+.Timings ul li{
+  line-height: 35px;
+}
+.connected{
+  font-size: 30px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.description_p{
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+/* =========contact End============ */
+
+
+
 /***********************
 ********* Footer ******
 ************************/

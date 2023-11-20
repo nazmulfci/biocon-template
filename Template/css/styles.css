@@ -1225,6 +1225,103 @@ img.zoom {
   color: #1ab35f;
   font-size: 50px;
 }
+.jointext{
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 50px;
+  font-family: sans-serif;
+  
+}
+.be_part{
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 2.2;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.open_button{
+    font-family: "Airbnb Cereal", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    fill:#FFFFFF;;
+    color:#ffffff;
+    background-color: #0081FB;;
+    border-radius: 8px 8px 8px 8px;
+    border-color: #0081FB;
+    padding: 10px 55px;
+    margin-left: 39%;
+    margin-top: 30px;
+  }
+  .open_button:hover{
+    background-color: #064988;
+  }
+  .careerimage{
+    margin-top: 80px;
+    padding: 5px 0px;
+  }
+  .commitment_p{
+    margin-top: 50px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  .Ignite{
+    font-size:30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .TechCare{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+  }
+    .career-box {
+      margin-top: 100px;
+      width: 100%;
+      height: auto;
+      padding: 10px 20px;
+      border-top: 1px dashed #D2E9FF;
+      border-left: 1px dashed #D2E9FF;
+      border-bottom: 1px dashed #D2E9FF;
+    }
+  
+    .career-box1 {
+      width: 100%;
+      height: 213px;
+      padding: 10px 20px;
+      border-top: 1px dashed #D2E9FF;
+      border-right: 1px dashed #D2E9FF;
+      border-bottom: 1px dashed #D2E9FF;
+    }
+  
+    .box-2 {
+      margin-top: 50px;
+    }
+  
+    .career-box p {
+      color: #071233;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 44px;
+    }
+  
+    .Career-details {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 40px;
+      margin-top: 30%;
+      fill: #fff;
+      color: #fff;
+      background-color: #0081FB;
+      border-radius: 8px 8px 8px 8px;
+      border-color: #0081FB;
+      padding: 10px 55px 10px 55px;
+    }
 /* ===========Career End============== */
 
 /* ===========Corporate Strat============== */

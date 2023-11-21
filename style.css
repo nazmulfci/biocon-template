@@ -1729,3 +1729,294 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /* pagination section  */
+
+/* Corporate Section */
+.post-box{
+  margin-top: 100px;
+}
+.post-grid{
+  color: #575757;
+}
+.post-grid .post-img {
+  position: relative;
+}
+.post-img img{
+  width: 100% !important;
+  height: 240px;
+  filter: grayscale(100%);
+  transition: all linear 0.3s;
+}
+.bg-gray-light {
+  background: #f8f8f8;
+}
+.post-text-block{
+  width: 100%;
+  position: relative;
+  padding: 1.25rem;;
+  box-shadow: 0 0.1429rem 0.6429rem 0.07143rem rgba(0, 0, 0, 0.1);
+  transition: all linear .3s;
+}
+.post-grid h3 {
+  text-transform: capitalize;
+  margin-bottom: 0;
+  font-size: 2.18rem;
+  letter-spacing: 1.5px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  margin-left: 10px;
+}
+.content-sub-title {
+  display: block;
+  margin-bottom: 2rem;
+  color: #575757;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 10px;
+}
+.post-grid a{
+  color: #575757;
+  text-decoration: none;
+  font-size: 1.35rem;
+  margin-left: 10px;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.post-grid a span{
+  font-size: 1.35rem;
+  visibility: hidden;
+  transition: all linear .3s;
+}
+.post-grid:hover.post-grid img{
+  filter: none;
+}
+.post-grid:hover .post-text-block {
+  background: #fff;
+  color: #4cae4c;
+}
+.post-grid:hover.post-grid a span{
+  margin-left: 5px;
+  visibility: visible;
+}
+.Corporate-text{
+  margin-top: 120px;
+}
+.Corporate-text h3{
+  font-size: 1.75rem;
+  letter-spacing: 0.5px;
+  line-height: 2.1;
+  color: #55565b;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Corporate-text h2{
+  color: #55565b;
+  font-weight: 700;
+  letter-spacing: .125rem;
+  font-size: 5.35rem;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container-md {
+  max-width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-md p{
+  margin-top: 20px;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.carousel{
+  margin-top: 150px;
+}
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 30px 0px;
+  white-space: nowrap;
+  position: relative;
+}
+.logo_items img{
+  margin-left: 80px;
+}
+.logos:before, .logos:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+}
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+}
+.logo_items {
+  display: inline-block;
+  animation: 35s slides infinite linear;
+}
+.logos:hover .logo_items {
+  animation-play-state: paused;
+}
+.logo_items img{
+  height: 100px;
+}
+
+
+.content-block{
+  height: 470px;
+  width: 100%;
+  margin-top: 150px;
+}
+.parallax {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-attachment: initial;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50% 0;
+  z-index: 1;
+  position: relative;
+  /* Hide Parallax on mobile devices */
+}
+@media only screen and (max-width: 767px) {
+  .parallax {
+    background-attachment: scroll;
+    background-position: 50% 50% !important;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}
+.parallax>* {
+  position: relative;
+  z-index: 2;
+}
+.parallax:before {
+  top: -1.429rem;
+  bottom: -1.429rem;
+}
+.info-block{
+  height: 470px;
+  margin-top: 0px;
+}
+.icon img{
+  margin-top: 30px;
+}
+.info-block h3{
+  color: #fff;
+  font-size: 2.35rem !important;
+  line-height: 2 !important;
+  font-weight: 700;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.information-block .info-block p {
+  margin-bottom: 0;
+  font-size: 1.9rem;
+  line-height: 2;
+}
+.information-block {
+  background-image: url("image/visual-03.jpg");
+}
+.information-block .info-block.block-1:before {
+  background: #f57f17;
+  opacity: 0.9;
+}
+.information-block .info-block.block-2:before {
+  background: #55565b;
+  opacity: 0.84;
+}
+.information-block .info-block.block-3:before {
+  background: #f57f17;
+  opacity: 0.5;
+}
+.information-block .info-block.block-4:before {
+  background: #ff5722;
+  opacity: 0.84;
+}
+.information-block .info-block:hover:before {
+  opacity: 0.1;
+}
+.information-block .info-block.info-block-v2 {
+  padding: 2.813rem 0.9375rem;
+}
+@media only screen and (min-width: 1230px) {
+  .information-block .info-block.info-block-v2 {
+    padding: 5.25rem 1.75rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .information-block .info-block.info-block-v2 {
+    padding: 9.375rem 5rem 12.5rem;
+  }
+}
+.information-block .info-block {
+  padding: 2.813rem 0.9375rem;
+  color: #fff;
+  -webkit-transition: all linear .3s;
+  -o-transition: all linear .3s;
+  transition: all linear .3s;
+  position: relative;
+}
+@media only screen and (min-width: 991px) {
+  .information-block .info-block {
+    padding: 5.25rem 1.75rem;
+  }
+}
+.information-block .info-block .icon {
+  margin-bottom: 2.688rem;
+}
+.information-block .info-block h3 {
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 2.188rem;
+}
+@media screen and (min-width: 576px) {
+  .information-block .info-block h3 {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 767px) {
+  .information-block .info-block h3 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 991px) {
+  .information-block .info-block h3 {
+    font-size: 1.375rem;
+  }
+}
+@media screen and (min-width: 1230px) {
+  .information-block .info-block h3 {
+    font-size: 1.5rem;
+  }
+}
+.information-block .info-block p {
+  margin-bottom: 0;
+}
+.information-block .info-block:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: '';
+  z-index: -1;
+  -webkit-transition: all linear .3s;
+  -o-transition: all linear .3s;
+  transition: all linear .3s;
+  opacity: 0.9;
+  background: #000;
+}
+/* Corporate Section */

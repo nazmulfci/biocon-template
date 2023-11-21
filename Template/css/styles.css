@@ -87,12 +87,14 @@ hr {
   background: #51932b;
   color: #fff;
 }
+/* Career Box */
+
 
 /* about section */
 .about-us-img{
   width: 102.4%;
   margin-left: -15px;
-  height: 200px;
+  height: 220px;
   margin-top: -205px;
   overflow: visible;
 }

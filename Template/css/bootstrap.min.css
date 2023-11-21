@@ -1165,6 +1165,9 @@ a.text-success:hover {
 .text-info {
   color: #31708f;
 }
+.text-white-50 {
+  color: rgba(255,255,255,0.5) !important;
+}
 a.text-info:hover {
   color: #245269;
 }
@@ -1208,6 +1211,9 @@ a.bg-warning:hover {
 .bg-danger {
   background-color: #f2dede;
 }
+.bg-dark {
+  background-color: #2B3940 !important;
+}
 a.bg-danger:hover {
   background-color: #e4b9b9;
 }
@@ -1215,6 +1221,16 @@ a.bg-danger:hover {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
+}
+.pt-5 {
+  padding-top: 3rem !important;
+}
+.mt-5 {
+  margin-top: 3rem !important;
+}
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 ul,
 ol {

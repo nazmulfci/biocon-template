@@ -2020,3 +2020,99 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #000;
 }
 /* Corporate Section */
+
+/* Footer Section  */
+.footer-title h5{
+  font-size: 2rem;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff !important;
+}
+.footer-title a{
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  margin-top: 5px;
+}
+.footer-title a:hover{
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EFFDF5;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 2px;
+  transition: .3s;
+  float: left;
+}
+.footer .btn.btn-social:hover {
+  color: #00B074;
+  border-color: #EFFDF5;
+}
+.btn-outline-light:hover {
+  background-color: #EFFDF5;
+}
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+.footer .btn.btn-link:hover {
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+.footer .form-control {
+  border-color: rgba(255,255,255,0.5);
+}
+
+.btn.btn-primary {
+  background: transparent;
+  color: #51932b;
+  padding: 10px 30px;
+  border: 1px solid #51932b;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 15px;
+  border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+  color: var(--light);
+}
+
+.footer .footer-menu a {
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+/* Footer Section  */

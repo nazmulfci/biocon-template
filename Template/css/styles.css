@@ -1723,7 +1723,7 @@ figure {
   color: #fff;
 }
 
-.pagination a {
+/* .pagination a {
   background: none;
   border: none !important;
   color: gray !important;
@@ -1774,7 +1774,7 @@ figure {
 .pagination>li.active>a:hover {
   cursor: pointer;
   background: #41a4f3 !important;
-}
+} */
 
 .fh5co-copyright {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -2117,6 +2117,66 @@ figure {
 /*# sourceMappingURL=style.css.map */
 
 /* Pagination Section  */
+/* .Container,
+.button,
+.links,
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container {
+  padding: 20px;
+  border-radius: 8px;
+  column-gap: 12px;
+}
+
+.button {
+  border: none;
+}
+
+.button i {
+  pointer-events: none;
+}
+
+.button:disabled {
+  background: #e4e2e2;
+  pointer-events: none;
+}
+
+.button,
+.link {
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  color: #666666;
+  background: #e4e2e2;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.links {
+  column-gap: 12px;
+}
+
+.link {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.button:hover,
+.link:hover {
+  color: #fff;
+  background: #4CB648;
+}
+
+.link.active {
+  color: #fff;
+  background: #4CB648;
+} */
+
+/* Base styles for larger screens */
 .Container,
 .button,
 .links,
@@ -2174,6 +2234,22 @@ figure {
 .link.active {
   color: #fff;
   background: #4CB648;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .Container {
+    align-items: stretch;
+  }
+
+  .button,
+  .link {
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+  }
 }
 
 /* pagination section  */
@@ -2275,6 +2351,12 @@ figure {
   letter-spacing: .125rem;
   font-size: 5.35rem;
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .block-1 , .block-2 , .block-3 , .block-4{
+    margin-top: 0px !important;
+  }
 }
 
 .container-md {
@@ -2536,6 +2618,7 @@ figure {
   font-size: 2rem;
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff !important;
+  line-height: 2.8;
 }
 
 .footer-title a {
@@ -2764,6 +2847,111 @@ figure {
   margin-left: 22px;
 }
 
+.column-title,
+.column-title-second {
+  margin-top: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.column-title:after,
+.column-title-second:after {
+  content: " ";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 40%;
+  border-bottom: 1px solid #51932b;
+}
+
+.about-description,
+.about-description-second,
+.news-details,
+.news-details-title,
+.descriprion {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.news-title,
+.news-title-second {
+  font-size: 20px;
+  color: black;
+}
+
+.news-title:after,
+.news-title-second:after {
+  content: " ";
+  position: absolute;
+  bottom: 450px;
+  left: 35px;
+  width: 65%;
+  border-bottom: 1px solid #51932b;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  #about{
+    height: 100% !important;
+    padding-bottom: 20px;
+  }
+  .about-us-img , 
+  .news-img{
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .about-title {
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+  .column-title,
+  .column-title-second {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .about-description,
+  .about-description-second,
+  .descriprion {
+    font-size: 14px;
+  }
+
+  .news-details{
+    color: #51932b;
+    font-size: 14px;
+  }
+  
+  .news-details-title{
+    font-size: 14px;
+    color:#000;
+  }
+
+  .news-title,
+  .news-title-second {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  .news-title:after, 
+  .news-title-second:after {
+    content: " ";
+    position: absolute;
+    bottom: 395px;
+    left: 15px;
+    width: 65%;
+    border-bottom: 1px solid #51932b;
+  }
+}
+
 ul.nostyle {
   list-style: none;
   padding: 0;
@@ -2855,7 +3043,7 @@ ul.nostyle i {
 }
 
 .navbar.navbar-default .navbar-brand {
-  height: auto;
+  height: 80px;
   padding: 6px 15px 11px;
 }
 
@@ -2933,16 +3121,24 @@ ul.nostyle i {
   position: fixed;
   right: 0;
   bottom: 0;
-  width: 100%;
-  height: auto;
-  background-size: cover;
+  width: 110%;
+  height: 650px;
+}
+
+video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .Cards {
   width: 100%;
   height: 300px;
   margin-top: -100px;
-  background-color: #fffbf7;
+  background-color: #cec8c2;
   z-index: 1000;
   padding: 55px 0px;
 }
@@ -3008,6 +3204,20 @@ ul.nostyle i {
 .Card-button:hover {
   color: #FFF;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Cards{
+    height: 1000px;
+  }
+  .top-grids{
+    margin-top: -80px;
+  }
+  .top-grid {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 10px;
+  }
 }
 
 .contact-logo {

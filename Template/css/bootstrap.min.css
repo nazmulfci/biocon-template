@@ -4003,8 +4003,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
+    background-color: #fff;
   }
 }
+
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
@@ -4322,6 +4324,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
+  background-color: #fff;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
